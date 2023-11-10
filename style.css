@@ -1,0 +1,145 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('');
+    background-size: cover; /* ou 'contain' para ajustar a imagem ao tamanho da tela */
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+header {
+    background-color: #9500ff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+header div:nth-child(2) {
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.resumo {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.resumo div {
+    flex: 1;
+}
+
+.resumo span {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #3e006a;
+}
+
+.novoItem {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.divDesc,
+.divValor,
+.divTipo,
+#btnNovo {
+    flex: 1;
+    margin: 0 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #495057;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+#btnNovo {
+    background-color: #9500ff;
+    color: #fff;
+    border: none;
+    height: 70px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#btnNovo:hover {
+    background-color: #3e006a; 
+}
+
+.divTabela table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.divTabela th,
+.divTabela td {
+    border: 1px solid #ced4da;
+    padding: 10px;
+    text-align: left;
+}
+
+.divTabela th.columnValor,
+.divTabela th.columnTipo,
+.divTabela th.columnAcao {
+    text-align: center;
+    color: black;
+}
+
+button {
+    background-color:#9500ff ;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3e006a;
+}
+img{
+width: 120px;
+border-radius: 560px;
+}
